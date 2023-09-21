@@ -1,0 +1,1 @@
+Headphones是 NZB 和 Torrent 的自动音乐下载器，用 Python 编写。它支持 SABnzbd、NZBget、Transmission、µTorrent 和 Blackhole。

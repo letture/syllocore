@@ -1,0 +1,7 @@
+IPFS Kubo 是星际文件系统 (IPFS) 协议的基于 Go 的程序。Kubo 是 IPFS 的第一个程序，也是当今使用最广泛的程序。Kubo 允许您执行 IPFS Desktop 可以执行的所有操作，但在更精细的级别上，因为您可以指定要运行的命令。Kubo 具有以下特点：
+
+IPFS 守护进程服务器
+广泛的命令行工具
+用于控制节点的 HTTP RPC API
+用于向 HTTP 浏览器提供内容的 HTTP 网关
+适用于 Windows、MacOS、Linux、FreeBSD 和 OpenBSD 的二进制文件

@@ -1,0 +1,2 @@
+Healthchecks 是一项 cron 作业监控服务。它侦听来自 cron 作业和计划任务（“检查”）的 HTTP 请求和电子邮件消息（“ping”）。当 ping 未按时到达时，Healthchecks 会发出警报。
+Healthchecks 配备了 Web 仪表板、API、用于发送通知的 25 多个集成、每月电子邮件报告、WebAuthn 2FA 支持、团队管理功能：项目、团队成员、只读访问权限。

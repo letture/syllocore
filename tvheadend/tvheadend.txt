@@ -1,0 +1,1 @@
+Tvheadend用作代理服务器：是适用于 Linux、FreeBSD 和 Android 的电视流媒体服务器和录像机，支持 DVB-S、DVB-S2、DVB-C、DVB-T、ATSC、ISDB-T、IPTV、SAT>IP 和 HDHomeRun作为输入源。Tvheadend 提供 HTTP（VLC、MPlayer）、HTSP（Kodi、Movian）和 SAT>IP 流媒体。支持多个 EPG 源（无线 DVB 和 ATSC，包括 OpenTV DVB 扩展、XMLTV、PyXML）。
