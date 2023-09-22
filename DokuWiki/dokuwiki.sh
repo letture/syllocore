@@ -1,7 +1,7 @@
 #!/bin/bash
 
 APP_HOME=/zscloud/cache/app/dokuwiki
-mkdir -p $APP_HOME/appdata/config
+mkdir -p $APP_HOME/config
 
 docker run -d \
   --name=dokuwiki \
@@ -9,6 +9,6 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Asia/Shanghai \
   -p 8089:80 \
-  -v $APP_HOME/appdata/config:/config \
+  -v $APP_HOME/config:/config \
   --restart unless-stopped \
   linuxserver/dokuwiki:latest

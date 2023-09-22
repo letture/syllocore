@@ -15,7 +15,5 @@ docker run -d \
   -p 9982:9982 \
   -v $APP_HOME/data:/config \
   -v $APP_HOME/recordings:/recordings \
-  --device /dev/dri:/dev/dri `#optional` \
-  --device /dev/dvb:/dev/dvb `#optional` \
   --restart unless-stopped \
   linuxserver/tvheadend:latest

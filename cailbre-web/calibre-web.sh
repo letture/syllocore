@@ -1,8 +1,8 @@
 #!/bin/bash
 
-APP_HOME=/zscloud/cache/app/calibre-web
-mkdir -p $APP_HOME/config
-mkdir -p $APP_HOME/books
+APP_HOME=/zscloud/cache/app
+mkdir -p $APP_HOME/calibre-web/config
+mkdir -p $APP_HOME/Media/Books
 
 docker run -d \
   --name=calibre-web \
@@ -11,7 +11,7 @@ docker run -d \
   -e TZ=Asia/Shanghai \
   -e DOCKER_MODS=ghcr.io/linuxserver/mods:universal-calibre \
   -p 8083:8083 \
-  -v $APP_HOME/config:/config \
-  -v $APP_HOME/books:/books \
+  -v $APP_HOME/calibre-web/config:/config \
+  -v $APP_HOME/Media/Books:/books \
   --restart unless-stopped \
   linuxserver/calibre-web:latest

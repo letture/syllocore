@@ -1,7 +1,8 @@
 #!/bin/bash
 APP_HOME=/zscloud/cache/app/deluge
 mkdir -p $APP_HOME/config
-mkdir -p $APP_HOME/downloads
+Downloads=/zscloud/cache/app/downloads
+mkdir -p $Downloads
 
 docker run -d --name=deluge \
     -e PUID=1000 \
@@ -13,5 +14,5 @@ docker run -d --name=deluge \
     -p 6881:6881 \
     -p 6881:6881/udp \
     -v $APP_HOME/config:/config \
-    -v $APP_HOME/downloads:/downloads \
+    -v $Downloads:/downloads \
     linuxserver/deluge:latest
