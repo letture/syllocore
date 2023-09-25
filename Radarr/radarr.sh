@@ -6,7 +6,7 @@ mkdir -p $APP_HOME/Media/movies
 Downloads=/zscloud/cache/app/downloads
 mkdir -p $Downloads
 
-docker run --name qbittorrent \
+docker run --name radarr \
     -e PUID=1000 \
     -e PGID=1000 \
     -e TZ=Asia/Shanghai \

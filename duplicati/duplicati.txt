@@ -1,1 +1,0 @@
-免费备份软件，用于在线存储加密备份。Duplicati可与 FTP、SSH、WebDAV 等标准协议以及 Microsoft OneDrive、Amazon Cloud Drive 和 S3、Google Drive、box.com、Mega、hubiC 等流行服务配合使用。

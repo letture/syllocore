@@ -9,7 +9,6 @@ docker run -d \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=Asia/Shanghai \
-  -e DOCKER_MODS=ghcr.io/linuxserver/mods:universal-calibre \
   -p 8083:8083 \
   -v $APP_HOME/calibre-web/config:/config \
   -v $APP_HOME/Media/Books:/books \
