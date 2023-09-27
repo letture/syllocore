@@ -21,4 +21,4 @@ docker run -d \
   -p 5514:5514/udp `#optional` \
   -v $APP_HOME/config:/config \
   --restart unless-stopped \
-  lscr.io/linuxserver/unifi-controller:latest
+  linuxserver/unifi-controller:latest
