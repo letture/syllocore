@@ -16,4 +16,4 @@ docker run -d \
   -v $APP_HOME/backups:/backups \
   -v $APP_HOME/source:/source \
   --restart unless-stopped \
-  linuxserver/duplicati:latest
+  registry.wh.gpuez.com/linuxserver/duplicati:latest

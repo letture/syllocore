@@ -15,4 +15,4 @@ docker run -d \
   -v $APP_HOME/data:/config \
   -v $Downloads/folder:/download \
   --restart unless-stopped \
-  linuxserver/davos:latest
+  registry.wh.gpuez.com/linuxserver/davos:latest

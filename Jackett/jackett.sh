@@ -14,4 +14,4 @@ docker run --name jackett\
     -v $APP_HOME/config:/config \
     -v $Downloads:/downloads \
     --restart unless-stopped \
-    -d linuxserver/jackett:0.21.341
+    -d registry.wh.gpuez.com/linuxserver/jackett:0.21.341

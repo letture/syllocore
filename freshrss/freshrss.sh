@@ -11,4 +11,4 @@ docker run -d \
   -p 8081:80 \
   -v $APP_HOME/data:/config \
   --restart unless-stopped \
-  linuxserver/freshrss:latest
+  registry.wh.gpuez.com/linuxserver/freshrss:latest

@@ -30,4 +30,4 @@ docker run -d \
   -p 2525:2525 `#optional` \
   -v $APP_HOME/data:/config \
   --restart unless-stopped \
-  linuxserver/healthchecks:latest
+  registry.wh.gpuez.com/linuxserver/healthchecks:latest

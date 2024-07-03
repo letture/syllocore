@@ -16,4 +16,4 @@ docker run -d \
   -v $Downloads:/downloads \
   -v $APP_HOME/Media/musics:/music \
   --restart unless-stopped \
-  linuxserver/headphones:latest
+  registry.wh.gpuez.com/linuxserver/headphones:latest

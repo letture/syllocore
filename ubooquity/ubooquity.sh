@@ -19,4 +19,4 @@ docker run -d \
   -v $APP_HOME/comics:/comics \
   -v $APP_HOME/raw/files:/files \
   --restart unless-stopped \
-  linuxserver/ubooquity:latest
+  registry.wh.gpuez.com/linuxserver/ubooquity:latest

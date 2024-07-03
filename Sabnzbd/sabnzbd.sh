@@ -15,4 +15,4 @@ docker run --name sabnzbd \
     -v $Downloads:/downloads \
     -v $Downloads:/incomplete-downloads \
     --restart unless-stopped \
-    -d linuxserver/sabnzbd:4.0.3
+    -d registry.wh.gpuez.com/linuxserver/sabnzbd:4.0.3

@@ -13,4 +13,4 @@ docker run --name syncthing \
     -p 21027:21027/udp \
     -v $APP_HOME/config:/config \
     --restart unless-stopped \
-    -d linuxserver/syncthing:1.23.5
+    -d registry.wh.gpuez.com/linuxserver/syncthing:1.23.5

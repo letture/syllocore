@@ -10,4 +10,4 @@ docker run --name snapdrop \
     -p 89:80 \
     -v $APP_HOME/config:/config \
     --restart unless-stopped \
-    -d linuxserver/snapdrop:version-eac78009
+    -d registry.wh.gpuez.com/linuxserver/snapdrop:version-eac78009

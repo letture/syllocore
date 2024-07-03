@@ -23,4 +23,4 @@ docker run -d \
   -v /lib/modules:/lib/modules `#optional` \
   --sysctl="net.ipv4.conf.all.src_valid_mark=1" \
   --restart unless-stopped \
-  linuxserver/wireguard:latest
+  registry.wh.gpuez.com/linuxserver/wireguard:latest

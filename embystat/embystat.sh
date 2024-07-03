@@ -11,4 +11,4 @@ docker run -d \
   -p 6555:6555 \
   -v $APP_HOME/config:/config \
   --restart unless-stopped \
-  linuxserver/embystat:latest
+  registry.wh.gpuez.com/linuxserver/embystat:latest

@@ -11,4 +11,4 @@ docker run -d \
   -p 8089:80 \
   -v $APP_HOME/config:/config \
   --restart unless-stopped \
-  linuxserver/dokuwiki:latest
+  registry.wh.gpuez.com/linuxserver/dokuwiki:latest

@@ -15,4 +15,4 @@ docker run -d \
   -p 3306:3306 \
   -v $APP_HOME/config:/config \
   --restart unless-stopped \
-  linuxserver/mariadb:10.11.4
+  registry.wh.gpuez.com/linuxserver/mariadb:10.11.4

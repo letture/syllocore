@@ -12,4 +12,4 @@ docker run -d \
   -p 3000:3000 \
   -v $APP_HOME/appdata:/config \
   --restart unless-stopped \
-  linuxserver/raneto:latest
+  registry.wh.gpuez.com/linuxserver/raneto:latest

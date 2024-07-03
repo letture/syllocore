@@ -16,4 +16,4 @@ docker run --name resilio-sync \
     -v $APP_HOME/data:/sync \
     -v $Downloads:/downloads \
     --restart unless-stopped \
-    -d linuxserver/resilio-sync:2.7.3
+    -d registry.wh.gpuez.com/linuxserver/resilio-sync:2.7.3

@@ -14,4 +14,4 @@ docker run --name jellyfin\
     -v $APP_HOME/Media/tv:/data/tvshows \
     -v $APP_HOME/Media/movies:/data/movies \
     --restart unless-stopped \
-    -d linuxserver/jellyfin:latest
+    -d registry.wh.gpuez.com/linuxserver/jellyfin:latest

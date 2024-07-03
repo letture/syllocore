@@ -16,4 +16,4 @@ docker run -d \
   -v $APP_HOME/Media/tv:/data/tvshows \
   -v $APP_HOME/Media/movies:/data/movies \
   --restart unless-stopped \
-  linuxserver/emby:latest
+  registry.wh.gpuez.com/linuxserver/emby:latest

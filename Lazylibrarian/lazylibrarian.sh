@@ -16,4 +16,4 @@ docker run --name lazylibrarian\
     -v $BOOK:/books \
     -v $Downloads:/downloads \
     --restart unless-stopped \
-    -d linuxserver/lazylibrarian:version-a7d5948a
+    -d registry.wh.gpuez.com/linuxserver/lazylibrarian:version-a7d5948a
