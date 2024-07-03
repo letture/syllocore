@@ -14,4 +14,4 @@ docker run -d \
   -p 5432:5432 \
   -v $APP_HOME/data:/var/lib/postgresql/data \
   --restart unless-stopped \
-  postgres:15.3
+  registry.wh.gpuez.com/syllocore/postgres:15.3

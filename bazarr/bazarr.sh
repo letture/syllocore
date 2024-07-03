@@ -15,4 +15,4 @@ docker run -d \
   -v $APP_HOME/Media/movies:/movies `#optional` \
   -v $APP_HOME/Media/tv:/tv `#optional` \
   --restart unless-stopped \
-  registry.wh.gpuez.com/linuxserver/bazarr:latest
+  registry.wh.gpuez.com/syllocore/linuxserver/bazarr:latest

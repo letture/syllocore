@@ -13,4 +13,4 @@ docker run -d \
   -v $APP_HOME/data/configdb:/data/configdb \
   -v $APP_HOME/data/db:/data/db \
   --restart unless-stopped \
-  mongo:6.0.6
+  registry.wh.gpuez.com/syllocore/mongo:6.0.6

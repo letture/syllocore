@@ -12,4 +12,4 @@ docker run --name smokeping \
     -v $APP_HOME/config:/config \
     -v $APP_HOME/data:/data \
     --restart unless-stopped \
-    -d registry.wh.gpuez.com/linuxserver/smokeping:2.8.2
+    -d registry.wh.gpuez.com/syllocore/linuxserver/smokeping:2.8.2

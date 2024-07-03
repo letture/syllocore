@@ -13,4 +13,4 @@ docker run -d \
   -v $APP_HOME/calibre-web/config:/config \
   -v $APP_HOME/Media/Books:/books \
   --restart unless-stopped \
-  registry.wh.gpuez.com/linuxserver/calibre-web:latest
+  registry.wh.gpuez.com/syllocore/linuxserver/calibre-web:latest

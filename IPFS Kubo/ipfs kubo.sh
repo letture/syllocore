@@ -13,4 +13,4 @@ docker run -d \
  -p 4001:4001/udp \
  -p 8084:8080 \
  -p 5001:5001 \
- ipfs/kubo:latest
+ registry.wh.gpuez.com/syllocore/ipfs/kubo:latest

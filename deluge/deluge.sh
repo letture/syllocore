@@ -15,4 +15,4 @@ docker run -d --name=deluge \
     -p 6881:6881/udp \
     -v $APP_HOME/config:/config \
     -v $Downloads:/downloads \
-    registry.wh.gpuez.com/linuxserver/deluge:latest
+    registry.wh.gpuez.com/syllocore/linuxserver/deluge:latest

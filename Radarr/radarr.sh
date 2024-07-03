@@ -15,4 +15,4 @@ docker run --name radarr \
     -v $APP_HOME/Media/movies:/movies \
     -v $Downloads:/downloads \
     --restart unless-stopped \
-    -d registry.wh.gpuez.com/linuxserver/radarr:4.7.5
+    -d registry.wh.gpuez.com/syllocore/linuxserver/radarr:4.7.5

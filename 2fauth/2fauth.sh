@@ -9,4 +9,4 @@ docker run -idt --name 2fauth \
 --restart unless-stopped \
 -p 8002:8000/tcp \
 --restart always \
--v $APP_HOME:/2fauth:rw registry.wh.gpuez.com/2fauth/2fauth
+-v $APP_HOME:/2fauth:rw registry.wh.gpuez.com/syllocore/2fauth/2fauth

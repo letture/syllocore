@@ -21,4 +21,4 @@ docker run -d \
   -p 5514:5514/udp `#optional` \
   -v $APP_HOME/config:/config \
   --restart unless-stopped \
-  registry.wh.gpuez.com/linuxserver/unifi-controller:latest
+  registry.wh.gpuez.com/syllocore/linuxserver/unifi-controller:latest

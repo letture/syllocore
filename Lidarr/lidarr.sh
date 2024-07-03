@@ -15,4 +15,4 @@ docker run --name lidarr \
     -v $APP_HOME/Media/musics:/music \
     -v $Downloads:/downloads \
     --restart unless-stopped \
-    -d registry.wh.gpuez.com/linuxserver/lidarr:1.2.6
+    -d registry.wh.gpuez.com/syllocore/linuxserver/lidarr:1.2.6

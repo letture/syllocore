@@ -19,4 +19,4 @@ docker run -d \
   -v $APP_HOME/config:/config \
   -v $APP_HOME/data:/data \
   --restart unless-stopped \
-  registry.wh.gpuez.com/linuxserver/wikijs:latest
+  registry.wh.gpuez.com/syllocore/linuxserver/wikijs:latest

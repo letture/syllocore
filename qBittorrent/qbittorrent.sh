@@ -15,4 +15,4 @@ docker run --name qbittorrent \
     -v $Downloads:/DATA \
     -v /var/run/docker.sock:/var/run/docker.sock \
     --restart unless-stopped \
-    -d hotio/qbittorrent:release-4.5.2
+    -d registry.wh.gpuez.com/syllocore/hotio/qbittorrent:release-4.5.2

@@ -10,4 +10,4 @@ docker run -d \
   -p 222:22 \
   -v $APP_HOME/data:/data \
   --restart unless-stopped \
-  gitea/gitea:1.19.3
+  registry.wh.gpuez.com/syllocore/gitea/gitea:1.19.3

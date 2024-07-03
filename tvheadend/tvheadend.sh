@@ -16,4 +16,4 @@ docker run -d \
   -v $APP_HOME/data:/config \
   -v $APP_HOME/recordings:/recordings \
   --restart unless-stopped \
-  registry.wh.gpuez.com/linuxserver/tvheadend:latest
+  registry.wh.gpuez.com/syllocore/linuxserver/tvheadend:latest

@@ -10,4 +10,4 @@ docker run --name portainer \
     -v $APP_HOME:/data \
     -v /var/run/docker.sock:/var/run/docker.sock \
     --restart unless-stopped \
-    -d portainer/portainer-ce:2.18.4
+    -d registry.wh.gpuez.com/syllocore/portainer/portainer-ce:2.18.4

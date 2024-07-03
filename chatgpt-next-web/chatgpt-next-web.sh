@@ -7,4 +7,4 @@ docker run --name chatgptnextweb\
     -e BASE_URL=https://api.openai.com \
     -p 3004:3000 \
     --restart unless-stopped \
-    -d yidadaa/chatgpt-next-web
+    -d registry.wh.gpuez.com/syllocore/yidadaa/chatgpt-next-web

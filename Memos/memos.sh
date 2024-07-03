@@ -10,4 +10,4 @@ docker run --name memos \
     -p 5230:5230 \
     -v $APP_HOME/memos/memos:/var/opt/memos \
     --restart unless-stopped \
-    -d neosmemo/memos:0.15.0
+    -d registry.wh.gpuez.com/syllocore/neosmemo/memos:0.15.0

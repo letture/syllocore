@@ -10,4 +10,4 @@ docker run --name homeassistant\
     -p 8123:8123 \
     -v $APP_HOME/config:/config \
     --restart unless-stopped \
-    -d registry.wh.gpuez.com/linuxserver/homeassistant:2023.6.3
+    -d registry.wh.gpuez.com/syllocore/linuxserver/homeassistant:2023.6.3

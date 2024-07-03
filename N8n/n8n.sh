@@ -8,4 +8,4 @@ docker run --name n8n \
     -p 5678:5678 \
     -v $APP_HOME/.n8n:/home/node/.n8n \
     --restart unless-stopped \
-    -d n8nio/n8n:0.232.0
+    -d registry.wh.gpuez.com/syllocore/n8nio/n8n:0.232.0
